@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Create templates archive
-        run: zip -r slopctl-templates.zip templates/ defaults/ LICENSE
+        run: zip -r slopctl-starter.zip templates/ defaults/ LICENSE
 
       - name: Generate release info
         id: release_info
@@ -30,7 +30,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: catalog-${{ steps.release_info.outputs.date_compact }}-${{ steps.release_info.outputs.short_sha }}
-          name: slopctl-templates ${{ steps.release_info.outputs.date_compact }}
+          name: slopctl-starter ${{ steps.release_info.outputs.date_compact }}
           prerelease: false
           draft: false
           make_latest: true
@@ -43,4 +43,4 @@ jobs:
             Consumed by `slopctl templates --update`; most users never need this
             asset directly.
           files: |
-            slopctl-templates.zip
+            slopctl-starter.zip

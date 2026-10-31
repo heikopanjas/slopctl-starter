@@ -1,4 +1,5 @@
 version: 5
+id: slopctl-starter
 
 # Template Configuration - Version 5 (agents.md standard)
 #
@@ -20,6 +21,13 @@ version: 5
 # V5 additions:
 # - `directories` on agents: workspace directories to create during install
 # - `preamble` section: always-first fragment inserted at <!-- {preamble} --> in AGENTS.md
+#
+# Starter kit:
+# - This catalog is the slopctl starter kit: use it as is, fork it into your own catalog,
+#   or stack your own template systems on top of it as template layers
+# - `id` names this template system; slopctl records it as the origin of installed files
+#   and uses it to tell template layers apart. A fork should declare its own id
+# - slopctl versions before 23.3.0 ignore `id`
 #
 # Placeholders:
 #   $workspace     - Project root directory
