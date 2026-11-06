@@ -1,3 +1,13 @@
+---
+name: rust-build-commands
+description: Cargo and Rust toolchain commands. Use when building, running, testing, formatting, linting, or managing dependencies for a Rust project.
+---
+
+# Rust Build Commands
+
+Read this skill when you need to build, test, format, lint, or manage dependencies for a Rust project.
+
+---
 
 ## Build Commands
 

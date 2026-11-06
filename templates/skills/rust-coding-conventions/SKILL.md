@@ -1,17 +1,6 @@
 ---
 name: rust-coding-conventions
-description: Rust coding conventions covering error handling, naming, module organization, formatting, and testing. Load before writing, reviewing, or refactoring Rust code.
-license: MIT
-metadata:
-  author: Heiko Panjas
-  version: "1.2"
----
-
-# Rust Coding Conventions
-
-Read this skill before writing, reviewing, or refactoring Rust code in this project.
-It covers error handling, naming, module organization, formatting, testing, and more.
-
+description: Rust coding standards for this project. Use before writing, reviewing, or refactoring Rust code.
 ---
 
 ## Rust Coding Conventions
