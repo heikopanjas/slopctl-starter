@@ -165,7 +165,7 @@ description: Rust coding standards for this project. Use before writing, reviewi
 
 - Pass by reference (`&`) for complex types, by value for `Copy` types
 - Use immutable references (`&`) unless mutation is required (`&mut`)
-- Keep function signatures on one line when under max width (100 chars)
+- Keep function signatures on one line when under max width (167 chars)
 - Private helper functions should have single-line doc comments when logic is non-trivial
 
 **Structs and Types:**
@@ -256,7 +256,7 @@ description: Rust coding standards for this project. Use before writing, reviewi
 
 - Use project-specific rustfmt configuration for consistency
 - Key formatting rules:
-  - `max_width = 100` - Allow longer lines for readability
+  - `max_width = 167` - Allow longer lines for readability
   - `brace_style = "AlwaysNextLine"` - Opening braces on new lines
   - `control_brace_style = "AlwaysNextLine"` - Consistent brace placement
   - `trailing_comma = "Never"` - No trailing commas
