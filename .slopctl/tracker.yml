@@ -1,0 +1,68 @@
+AGENTS.md:
+  original_sha: 284eebfbf1a5ae1d4d14c88d82da66d107c5d3564365eb4183787dee8c42e07c
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.367562+00:00
+  lang: []
+  agent:
+  - claude
+  ref_count: 1
+  category: main
+UPDATES.md:
+  original_sha: ff56fd563cb60b9073230b3b0721e5687c98fd7888129b47f2bbc557e9c9c940
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.367757+00:00
+  lang: []
+  agent: []
+  ref_count: 0
+  category: integration
+  origin: slopctl-starter
+.claude/commands/init-session.md:
+  original_sha: 0d2fd81c4fbae776c4b4f050bd0394e913796c6e597297487ca34d8e78ec5d7d
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.368003+00:00
+  lang: []
+  agent:
+  - claude
+  ref_count: 1
+  category: agent
+  origin: slopctl-starter
+CLAUDE.md:
+  original_sha: eb7e86a5cd044d553afc7d464e33eea906f229a5637979cde2e864e0cf573cfa
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.367861+00:00
+  lang: []
+  agent:
+  - claude
+  ref_count: 1
+  category: agent
+  origin: slopctl-starter
+.claude/skills/git-workflow/SKILL.md:
+  original_sha: e77221a6957de986cdd456c69f80d4009ac8bf5e118a3e926c47260746ae92be
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.368199+00:00
+  lang: []
+  agent:
+  - claude
+  ref_count: 1
+  category: skill
+  origin: slopctl-starter
+.claude/skills/semantic-versioning/SKILL.md:
+  original_sha: d313d5c1a851aaf9b8cebc250e280cbe37bc70fdb06d95f74de6b60eafdf5f4d
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.368344+00:00
+  lang: []
+  agent:
+  - claude
+  ref_count: 1
+  category: skill
+  origin: slopctl-starter
+.claude/skills/recent-updates/SKILL.md:
+  original_sha: 27fbb14192738a4e76042bf7322b4b529f4996354fa427700624deccd3ef6dc9
+  template_version: 5
+  installed_date: 2026-11-18T13:39:39.368488+00:00
+  lang: []
+  agent:
+  - claude
+  ref_count: 1
+  category: skill
+  origin: slopctl-starter
