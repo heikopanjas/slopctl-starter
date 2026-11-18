@@ -102,6 +102,8 @@ agents:
     prompts:
       - source: pi/prompts/init-session.md
         target: "$workspace/.pi/prompts/init-session.md"
+      - source: pi/settings.json
+        target: "$workspace/.pi/settings.json"
 
   kiro:
     prompts:
